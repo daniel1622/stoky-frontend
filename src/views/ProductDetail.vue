@@ -43,7 +43,6 @@
               >
             </div>
 
-            <!-- Opciones: Color y Especificación -->
             <div class="product-options">
               <!-- Opción de Color -->
               <div class="option expandable" @click="toggleColor">

@@ -23,7 +23,6 @@
           </div>
         </div>
 
-        <!-- Ícono de opciones o eliminar (agrega funcionalidad adicional si es necesario) -->
         <i class="fa fa-ellipsis-v product-options"></i>
       </div>
     </div>
