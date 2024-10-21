@@ -1,0 +1,137 @@
+.scs-summary-content {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.scs-products-section {
+  width: 40%;
+}
+
+.scs-products-list {
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.scs-product-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  border-left: 10px solid #adff00;
+}
+
+.scs-product-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.scs-product-details {
+  flex: 1;
+  margin-left: 15px;
+}
+
+.scs-product-pricing {
+  text-align: right;
+}
+
+.scs-quantity-selector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scs-quantity-selector button {
+  width: 37px;
+  background-color: #adff00;
+  border: none;
+  padding: 8px 10px;
+  cursor: pointer;
+  border: 1px solid #adff00;
+}
+
+.scs-quantity-selector input {
+  width: 50px;
+  text-align: center;
+  border: 1px solid #adff00;
+  padding: 8px 10px;
+  margin: 0;
+}
+
+.scs-suggested-price-input {
+  width: 50px;
+  border: none;
+  background-color: #f0f0f0;
+  padding: 2px;
+  border-radius: 4px;
+}
+
+.scs-buttons-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.scs-add-product-button,
+.scs-add-custom-product-button {
+  background-color: #adff00;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.scs-add-product-button i,
+.scs-add-custom-product-button i {
+  margin-left: 10px;
+}
+
+.scs-add-custom-product-button {
+  background-color: white;
+  border: 2px solid #adff00;
+  color: #000;
+}
+
+.scs-add-product-button:hover,
+.scs-add-custom-product-button:hover {
+  background-color: #9ae900;
+}
+
+.scs-import-summary-section {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+
+.scs-summary-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #333;
+  color: white;
+  border-radius: 12px
+  ;
+}
+
+.scs-import-now-btn {
+  background-color: #adff00;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.scs-import-now-btn:hover {
+  background-color: #9ae900;
+}
